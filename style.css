@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: aquamarine;
+	padding: 20px;
+	/*padding-top: 20px;
+	padding-right: 20px;
+	padding:  20px 30px 40px 50px;*/
+	position: fixed;
+	width:  100%;
+	top: 0;
+	/*bootom: ;*/
+	left: 0;
+	/*right: ;*/
+	z-index: 2;
+}
+.navbar-li {
+	margin: 0 5px;
+}
+section {
+	background-color: darkgreen;
+	padding: 70px 0 0;
+}
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	/*background-color: #fff;*/
+}
+.d-inline-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+.text {
+	width: 500px;
+	margin-right: 40px;
+	font-family: 'Anton'
+}
+.image-box {
+	width: 450px;
+	height: 450px;
+	position: relative;
+}
+.image-box  img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.sticky {
+	width: 100%;
+	background-color: blanchedalmond;
+	position: sticky;
+	top: 50px;
+	left: 80px;
+	z-index: 1;
+}
+.postion-text {
+	font-size: 40px;
+	color: #fff;
+	position: absolute;
+	top: 200px;
+	right:  100px;
+	background-color: pink;
+}
+.content-box {
+	width: 200px;
+	height: 200px;
+	background-color: blanchedalmond;
+}
+.icon {
+	width: 50px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+.icon img {
+	width: 100%;
+}
+
